@@ -11,17 +11,20 @@ This Project is part of Pre-Mid Exam Web Programming Course Quiz that utilizes L
 
 ## How to run this Project:
 1. Clone this repository
-2. Open it in your code editor
-3. Create a MySQL database with the same name as the db name in the .env file using XAMPP or other tools
-4. Run the migration using this command
+   ```
+   git clone https://github.com/Andersen-C/EduFun-Web-Application.git
+   ```
+3. Open it in your code editor
+4. Create a MySQL database with the same name as the db name in the .env file using XAMPP or other tools
+5. Run the migration using this command
    ```
    php artisan migrate
    ```
-5. Run the seeder using this command
+6. Run the seeder using this command
    ```
    php artisan db:seed
    ```
-6. Run the Laravel Project using this command
+7. Run the Laravel Project using this command
    ```
    php artisan serve
    ```
